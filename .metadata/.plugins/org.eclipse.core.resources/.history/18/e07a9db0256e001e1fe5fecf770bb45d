@@ -1,0 +1,11 @@
+package chap09_inherit.animal;
+
+public class Tiger extends Animal {
+	String color;
+	
+	public Tiger() {
+		
+	}
+	
+	public Tiger(int age, String )
+}

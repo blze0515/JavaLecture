@@ -1,0 +1,13 @@
+package chap06_method.calc;
+
+public class Calculator {
+	// 1. public 메소드
+	// 어디서나 접근 가능한 메소드
+	public void add() {
+		System.out.println(10 + 20);
+	}
+	
+	protected void sub() {
+		
+	}
+}

@@ -1,0 +1,6 @@
+package chap12_inteface.board;
+
+// 1. 인터페이스: 
+public interface Board {
+	int boardNo = 10;
+}

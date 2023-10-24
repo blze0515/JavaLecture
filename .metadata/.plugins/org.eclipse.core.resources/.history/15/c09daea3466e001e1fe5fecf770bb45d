@@ -1,0 +1,16 @@
+package chap09_inherit.calc;
+
+public abstract class Add extends Calculator{
+	
+	public Add() {
+		
+	}
+	
+	public Add(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	
+	public abstract void print(int a, int b);
+}

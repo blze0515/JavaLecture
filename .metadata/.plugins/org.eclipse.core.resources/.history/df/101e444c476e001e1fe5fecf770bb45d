@@ -1,0 +1,11 @@
+package chap11_abstraction.academy;
+
+// 1. 추상클래스 선언
+public abstract class Academy {
+	public int classCnt;
+	public int studentCnt;
+	public int teacherCnt;
+	public int subjectCnt;
+	
+	// 2. 추상메소드 선언
+}

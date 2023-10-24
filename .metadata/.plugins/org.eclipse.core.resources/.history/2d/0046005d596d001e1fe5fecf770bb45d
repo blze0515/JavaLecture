@@ -1,0 +1,15 @@
+package chap06_method;
+
+import chap06_method.calc.Calculator;
+
+public class _01_AccessModifier {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 객체 생성(부품)
+		// 메인메소드가 없는(실행 클래스가 아닌) 클래스는 부품(변수)으로 만들어서 사용
+		Calculator cal = new Calculator();
+		
+	}
+
+}

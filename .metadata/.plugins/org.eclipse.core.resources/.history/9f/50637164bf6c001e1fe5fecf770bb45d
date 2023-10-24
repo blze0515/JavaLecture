@@ -1,0 +1,14 @@
+package chap05_array;
+
+public class _05_AdvancedFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] score = {100, 84, 56, 72, 68};
+		
+		int sum = 0;
+		
+		// 1. 향상된 for문 사용
+	}
+
+}

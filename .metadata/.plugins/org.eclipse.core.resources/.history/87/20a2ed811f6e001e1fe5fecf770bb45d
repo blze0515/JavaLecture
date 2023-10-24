@@ -1,0 +1,17 @@
+package chap09_inherit;
+
+import chap09_inherit.car.HyundaiCarInherit;
+
+public class _01_Inherit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 상속받은 자식클래스 객체 생성
+		HyundaiCarInherit hCar = new HyundaiCarInherit();
+		
+		// 2. 부모 Car 클래스의 속성이나 메소드 사용
+		hCar.company = "현대";
+		hCar.model = "제네시스";
+	}
+
+}

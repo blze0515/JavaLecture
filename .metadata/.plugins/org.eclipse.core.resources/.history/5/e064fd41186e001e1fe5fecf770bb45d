@@ -1,0 +1,10 @@
+ package chap99_homework.hw231018;
+
+public class Add {
+	private int a;
+	private int b;
+	
+	public int calculate() {
+		return a + b;
+	}
+}

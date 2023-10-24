@@ -1,0 +1,16 @@
+package chap02_variables;
+
+public class _09_VarVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. var 변수 선언 및 초기화
+		var str = "hello";
+		
+		// 2. var 변수 선언 후 초기화를 하지 않으면 에러 발생
+		var str1;
+		
+		// 3. 자료형 추론이 끝난 
+	}
+
+}

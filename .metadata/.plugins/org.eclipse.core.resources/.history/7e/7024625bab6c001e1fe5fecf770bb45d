@@ -1,0 +1,13 @@
+package chap04_controlstatement;
+
+
+
+public class _08_Break {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 사용자가 0을 입력하기 전까지 입력하는 모든 수를 합한 값을 출력하세요.
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

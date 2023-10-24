@@ -1,0 +1,5 @@
+package chap12_inteface.device;
+
+public interface Tv extends Speaker, Display {
+	void changeChannel(int channel);
+}

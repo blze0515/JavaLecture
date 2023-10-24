@@ -1,0 +1,39 @@
+package chap99_homework.hw231019;
+
+import java.util.Scanner;
+
+import chap99_homework.hw231019.employee.Employee;
+
+public class UseOfEmployee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee[] empArr = new Employee[100];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int eno = 0;
+		String name = "";
+		int pay = 0;
+		int bonus = 0;
+		int hireYear = 0;
+		int workDay = 0;
+		
+		/*
+		 * *** 메뉴 선택***
+		 * 1. 정규직 저장
+		 * 2. 임시직 저장
+		 * 3. 계약직 저장
+		 * 4. 전체 정보 출력
+		 * 5. 월급 계산 출력 
+		 * 6. 프로그램 종료
+		 * 
+		 * 1. 
+		 */
+		
+		while(true) {
+			
+		}
+	}
+
+}

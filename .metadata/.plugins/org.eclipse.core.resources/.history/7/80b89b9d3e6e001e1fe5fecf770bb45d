@@ -1,0 +1,17 @@
+package chap10_polymorphism.tv;
+
+public class LgTv extends Tv {
+	public void powerOn() {
+		System.out.println("제조사: 엘지");
+		super.powerOn();
+	}
+	
+	public void powerOff() {
+		System.out.println("제조사: 엘지");
+		super.powerOff();
+	}
+	
+	public void operate() {
+		
+	}
+}

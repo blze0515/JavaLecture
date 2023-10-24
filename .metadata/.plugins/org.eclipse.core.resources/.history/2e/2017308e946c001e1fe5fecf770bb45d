@@ -1,0 +1,15 @@
+package chap04_controlstatement;
+
+public class _04_While {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 1~10거꾸로 출력
+		int i = 10;
+		
+		while(i >= 1) {
+			
+		}
+	}
+
+}

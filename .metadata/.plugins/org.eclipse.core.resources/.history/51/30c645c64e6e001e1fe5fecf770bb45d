@@ -1,0 +1,7 @@
+package chap11_abstraction.tv;
+
+public abstract class Tv {
+	public int lastChannel;
+	
+	
+}

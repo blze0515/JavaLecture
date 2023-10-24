@@ -1,0 +1,33 @@
+package chap09_inherit;
+
+import chap09_inherit.calc.Add;
+import chap09_inherit.calc.Calculator;
+import chap09_inherit.calc.Div;
+import chap09_inherit.calc.Mul;
+import chap09_inherit.calc.Sub;
+
+public class _03_OverridingEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Add add = new Add(20, 10);
+		int result = add.calculate();
+		System.out.println(result);
+		
+		Sub sub = new Sub(20, 10);
+		result = sub.calculate();
+		System.out.println(result);
+		
+		Mul mul =new Mul(20, 10);
+		result = mul.calculate();
+		System.out.println(result);
+		
+		Div div =new Div(20, 10);
+		result = div.calculate();
+		System.out.println(result);
+		
+		Calculator calc = new Add(20, 10);
+		result = calc.calculate();
+	}
+
+}

@@ -1,0 +1,19 @@
+package chap06_method.calc;
+
+public class ReturnCalculator {
+	// 1. 결과 값이 없는 메소드
+	public void add() {
+		System.out.println(20 + 10);
+		//void로 지정된 메소드에서 return 문 사용시 에러 발생
+//		return 10;
+	}
+	
+	
+	// 2. 결과 값이 int형인 메소드
+	// 결과 값이 있는 메소드는 항상 return 구문 사용
+	public int sub() {
+		return 10 + 20;
+	}
+	
+	
+}

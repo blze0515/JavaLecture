@@ -1,0 +1,21 @@
+package chap02_variables;
+
+public class _08_BooleanType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 사용자 id 지정
+		String userId = "javabasic";
+		
+		// 2. 유효성 검사 플래그 변수 선언
+		boolean isValidated = false;
+		
+		// 3. 사용자 id의 유효성 검사
+		// String.length(): 저장된 문자열의 길이
+		// 사용자 id 길이가 8이상 20이하면 유효성 통과
+		if(userId.length() >= 8 && userId.length() <= 20) {
+			isValidated = true;
+		}
+	}
+
+}

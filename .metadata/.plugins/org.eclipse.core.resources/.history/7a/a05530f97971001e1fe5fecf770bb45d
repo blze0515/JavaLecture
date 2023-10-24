@@ -1,0 +1,18 @@
+package chap14_objectarray.objectarray;
+
+public class English extends CommonStat implements InterfaceArray {
+	public English() {
+		
+	}
+	
+	public English(String subject, int studentCnt, int lectureTime) {
+		super(subject, studentCnt, lectureTime);
+	}
+
+	@Override
+	public void proceedLucture() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

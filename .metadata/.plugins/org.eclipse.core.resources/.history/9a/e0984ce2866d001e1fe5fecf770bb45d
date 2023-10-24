@@ -1,0 +1,5 @@
+package chap07_class.game;
+
+public class NumBaseball {
+	// 1. 컴퓨터가 0~9까지의 랜덤값을 3개 배열에 저장
+}

@@ -1,0 +1,11 @@
+package chap12_inteface.board;
+
+// 1. 인터페이스: 추상클래스보다 더 추상화 레벨이 높은 클래스
+// 추상클래스가 멤버변수, 인스턴스 메소드, 추상메소드를 가질 수 있었다면
+// 인터페이스는 멤버변수는 static final인 변수만 가질 수 있고,
+// 메소드는 추상메소드만 가질수 있다.
+// 그냥 멤버변수를 선언해도 자동으로 public static final 키워드가 붙어서 생성된다.
+// 메소드도 마찬가지로 그냥 메소드를 선언해도 
+public interface Board {
+	int boardNo = 10;
+}

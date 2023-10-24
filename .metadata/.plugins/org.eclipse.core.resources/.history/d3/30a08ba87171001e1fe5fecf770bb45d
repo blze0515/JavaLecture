@@ -1,0 +1,7 @@
+package chap13_nestedclass;
+
+public class _02_UseOfLocalNestedClass {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package chap12_inteface.device;
+
+public class ElectonicDevice {
+	public void powerOn() {
+		
+	}
+	
+	public void powerOff() {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package chap14_objectarray.objectarray;
+
+public class English extends CommonStat implements InterfaceArray {
+	public English() {
+		
+	}
+
+	@Override
+	public void proceedLucture() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

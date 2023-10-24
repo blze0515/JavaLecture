@@ -1,0 +1,14 @@
+package chap05_array;
+
+public class _04_ArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Random 값을 생성하는 방법 1
+		// Random 클래스 사용
+		
+		// 2. Random 값을 생성하는 방법 2
+		// Math 클래스의 
+	}
+
+}

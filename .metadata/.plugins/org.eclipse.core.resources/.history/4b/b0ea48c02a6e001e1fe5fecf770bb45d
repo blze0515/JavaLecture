@@ -1,0 +1,17 @@
+package chap09_inherit;
+
+import chap09_inherit.calc.Add;
+import chap09_inherit.calc.Sub;
+
+public class _03_OverridingEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Add add = new Add(20, 10);
+		add.calculate();
+		
+		Sub sub = new Sub(20, 10);
+		sub.calculate();
+	}
+
+}

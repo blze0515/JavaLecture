@@ -1,0 +1,12 @@
+package chap07_class;
+
+public class _03_UserOfCircle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int radius = 12;
+		
+		// Circle 부품
+	}
+
+}

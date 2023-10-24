@@ -1,0 +1,7 @@
+package chap13_nestedclass.nestedclass;
+
+public class NestedClass {
+	// 1. 멤버변수
+	public int num1;
+	public int num2;
+}

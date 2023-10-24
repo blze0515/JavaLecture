@@ -1,0 +1,9 @@
+package chap06_method.calc;
+
+public class OverloadingCalculator {
+	public int add(int a, int b) {
+		return a + b;
+	}
+	
+	// 오버로딩된 메소드: 매개변수의 
+}

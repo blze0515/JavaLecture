@@ -1,0 +1,8 @@
+package chap13_nestedclass;
+
+public class _03_UseOfAnonymousNestedClass {
+	public static void main(String[] args) {
+		// 1. 익명 중첩 클래스
+		// 익명 중첩 클래스는 추상 클래스나 인터페이스
+	}
+}

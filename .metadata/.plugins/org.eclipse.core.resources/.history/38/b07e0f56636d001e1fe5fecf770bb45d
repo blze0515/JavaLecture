@@ -1,0 +1,9 @@
+package chap06_method.calc;
+
+public class OverloadingCalculator {
+	public int add(int a, int b) {
+		return a + b;
+	}
+	
+	//
+}

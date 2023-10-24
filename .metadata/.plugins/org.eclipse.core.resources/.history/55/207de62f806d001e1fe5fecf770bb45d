@@ -1,0 +1,11 @@
+package chap07_class.circle;
+
+public class Circle {
+	// 1. 상수 double PI 3.14 선언
+	
+	// 2. 반지름 int radius
+	
+	// 3. 기본생성자 1개와 radius를 받아서 초기화하는 생성자 1개
+	
+	// 4. 원의 둘레를 계산해서 double형으로 리턴하는 메소드 한개(2 * PI * radius)
+}

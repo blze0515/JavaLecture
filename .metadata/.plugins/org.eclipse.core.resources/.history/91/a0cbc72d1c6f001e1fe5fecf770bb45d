@@ -1,0 +1,18 @@
+package chap12_inteface.multiinherit;
+
+
+public class InterfaceChild implements Mother2, Father2 {
+
+	@Override
+	public void repair() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void calm() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

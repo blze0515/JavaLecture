@@ -1,0 +1,11 @@
+package chap07_class.car;
+
+public class Car {
+	// 1. 자동차의 속성값들
+	public String company;
+	public String model;
+	public String color;
+	public int price;
+	
+	
+}

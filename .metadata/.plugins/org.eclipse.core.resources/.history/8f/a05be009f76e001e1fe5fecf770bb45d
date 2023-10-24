@@ -1,0 +1,22 @@
+package chap07_class.board;
+
+public class Board {
+	int boardNo;
+	String boardTitle;
+	String boardContent;
+	String boardWriter;
+	String boardDate;
+	
+	public Board() {
+		super();
+	}
+	
+	public Board(int boardNo, String boardTitle, String boardContent, String boardWriter, String boardDate) {
+		super();
+		this.boardNo = boardNo;
+		this.boardTitle = boardTitle;
+		this.boardContent = boardContent;
+		this.boardWriter = boardWriter;
+		this.boardDate = boardDate;
+	}
+}

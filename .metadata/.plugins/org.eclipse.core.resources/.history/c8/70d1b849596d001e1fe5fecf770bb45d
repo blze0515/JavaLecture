@@ -1,0 +1,13 @@
+package chap06_method;
+
+public class _01_AccessModifier {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 객체 생성(부품)
+		// 메인메소드가 없는(실행 클래스가 아닌) 클래스는 부품으로 만들어서 사용
+		
+		
+	}
+
+}

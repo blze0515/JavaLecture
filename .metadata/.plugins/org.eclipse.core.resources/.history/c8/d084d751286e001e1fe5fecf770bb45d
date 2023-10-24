@@ -1,0 +1,8 @@
+package chap09_inherit.calc;
+
+//Calculator를 상속받은 Add(덧셈), Sub(뺄셈), Div()
+public class Calculator {
+	public int calculate() {
+		return 0;
+	}
+}

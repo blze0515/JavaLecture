@@ -1,0 +1,7 @@
+package chap10_polymorphism.tv;
+
+public class LgTv extends Tv {
+	public void powerON() {
+		
+	}
+}

@@ -1,0 +1,22 @@
+package chap06_method;
+
+import chap06_method.calc.ReturnCalculator;
+
+public class _02_ReturnType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ReturnCalculator rcalc = new ReturnCalculator();
+		
+		// 1. 결과 값이 없는 메소드의 호출
+		rcalc.add();
+		
+		// 2. 결과 값이 있는 메소드의 호출
+		// 이런식으로 호출하면 div()의 결과값이
+		// 의미없는 값이 된다.
+		rcalc.div();
+		
+		// 
+	}
+
+}

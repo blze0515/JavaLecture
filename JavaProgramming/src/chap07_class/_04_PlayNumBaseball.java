@@ -1,0 +1,19 @@
+package chap07_class;
+
+import chap07_class.game.NumBaseball;
+
+public class _04_PlayNumBaseball {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NumBaseball nb = new NumBaseball();
+		nb.start();
+		print();
+		
+	}
+	
+	public static void print() {
+		System.out.println("aaa");
+	}
+
+}

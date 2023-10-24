@@ -1,0 +1,17 @@
+package chap09_inherit.board;
+
+public class NoticeBoard extends Board{
+	boolean isAdmin;
+	
+	public NoticeBoard(int boardNo, String boardTitle,
+			String boardContent, String boardWriter,
+			String boardDate, boolean isAdmin) {
+		super(boardNo, boardTitle, boardContent, boardWriter, boardDate);
+		this.isAdmin = isAdmin;
+	}
+	
+	@Override
+	public void insertBoard() {
+		
+	}
+}

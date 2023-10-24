@@ -1,0 +1,6 @@
+package chap14_objectarray.objectarray;
+
+public class CommonStat {
+	private String subject;
+	private int studuentCnt;
+}

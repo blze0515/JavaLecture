@@ -1,0 +1,9 @@
+package chap14_objectarray.objectarray;
+
+public class ClassArray {
+	private String subject;
+	private int studentCnt;
+	private int lectureTime;
+	
+	
+}

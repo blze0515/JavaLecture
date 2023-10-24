@@ -1,0 +1,11 @@
+package chap05_array;
+
+public class _03_ArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] chArr = {'b', 'I', 't', 'C'};
+		char[] convertArr = new char[4];
+	}
+
+}

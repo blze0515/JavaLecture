@@ -1,0 +1,5 @@
+package chap07_class.circle;
+
+public class Circle {
+	// 1. 상수 double PI 3.14 선언
+}

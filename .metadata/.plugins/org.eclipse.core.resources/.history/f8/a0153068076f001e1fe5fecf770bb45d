@@ -1,0 +1,14 @@
+package chap09_inherit.board;
+
+
+// 1. 상속받은 자식 클래스는 부모클래스 타입으로도 사용이 가능하고
+//    자식클래스 타입으로도 사용이 가능하다.
+//    Board board = new FreeBoard();
+//    FreeBoard freeBoard = new FreeBoard();
+//    상속받은 클래스는 부모의 속성이나 기능들을 사용할 수 있는데
+//    public, protected는 그냥 사용할 수 있고
+//    default 접근제어자일 경우에는 같은 패키지내에 존재해야 사용가능
+//    private 접근제어자는 아예 사용 불가능
+public class FreeBoard extends Board {
+	String attachFile;
+}

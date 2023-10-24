@@ -1,0 +1,6 @@
+package chap09_inherit.animal;
+
+public class Bird {
+	// 1. 오버라이딩 메소드
+	public 
+}

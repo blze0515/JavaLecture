@@ -1,0 +1,7 @@
+package chap13_nestedclass;
+
+public class _03_UseOfAnonymousNestedClass {
+	public static void main(String[] args) {
+		
+	}
+}

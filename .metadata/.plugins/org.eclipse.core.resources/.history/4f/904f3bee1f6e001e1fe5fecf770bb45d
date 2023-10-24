@@ -1,0 +1,12 @@
+package chap09_inherit.car;
+
+public abstract class Car {
+	// 1. 인스턴스 변수
+	public String company;
+	public String model;
+	public String color;
+	public int price;
+	
+	// 2. 인스턴스 메소드
+	public abstract void carInfo()
+}

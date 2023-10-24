@@ -1,0 +1,32 @@
+package chap13_nestedclass.nestedclass;
+
+public class NestedClass {
+	// 1. 멤버변수
+	public int num1;
+	public int num2;
+	
+	// 2. 메소드
+	public int add() {
+		return num1 + num2;
+	}
+	
+	// 3. 정적 중첩 클래스
+	public static class
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
