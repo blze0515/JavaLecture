@@ -1,8 +1,0 @@
-package chap10_polymorphism.tv;
-
-public class SamsungTv {
-	// 오버라이딩 메소드
-	public void powerOn() {
-		
-	}
-}

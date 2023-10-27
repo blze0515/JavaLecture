@@ -1,5 +1,0 @@
-package chap10_polymorphism;
-
-public class _02_Object {
-	// 1. Java의 모든 클래스들은 Object를 상속받아서 만들어진다.
-}

@@ -1,0 +1,22 @@
+package chap20_multithread;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+public class _05_ReasonOfThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread t = new Thread() {
+			@Override
+			public void run() {
+				getDataList();
+			}
+		};
+	}
+	
+	public static List<Map<String, String>> getDataList() {
+		return new ArrayList<Map<String, String>>();
+	}
+}

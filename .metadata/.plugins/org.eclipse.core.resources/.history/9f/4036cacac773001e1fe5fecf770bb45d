@@ -1,0 +1,14 @@
+package chap18_generic;
+
+public class _03_GenericMethod {
+	public static void main(String[] args) {
+		
+	}
+	
+	// 1. 제네릭 메소드 정의
+	public static <T> T getLastEle(T[] tArr) {
+		return tArr[tArr.length - 1];
+	}
+	
+	public static <T>
+}

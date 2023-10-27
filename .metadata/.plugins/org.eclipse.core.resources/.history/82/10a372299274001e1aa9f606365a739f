@@ -1,0 +1,21 @@
+package chap20_multithread;
+
+public class _01_Thread {
+	
+	// 메인스레드
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Thread 선언
+		Thread t = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					
+				}
+		});
+		
+		//
+		t.start();
+		
+	}
+
+}

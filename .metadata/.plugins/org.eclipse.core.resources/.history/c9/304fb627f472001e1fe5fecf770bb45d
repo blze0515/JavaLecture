@@ -1,0 +1,20 @@
+package chap16_usefulclass;
+
+import java.util.Calendar;
+
+public class _21_CalendarAddRoll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar cal = Calendar.getInstance();
+		
+		// 1. 
+	}
+	
+	public static String calToString(Calendar cal) {
+		return cal.get(Calendar.YEAR) + "년 " +
+				(cal.get(Calendar.MONTH) + 1) + "월 " +
+				cal.get(Calendar.DATE) + "일";
+	}
+
+}

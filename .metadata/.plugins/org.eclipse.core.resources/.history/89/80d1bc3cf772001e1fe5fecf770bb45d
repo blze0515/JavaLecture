@@ -1,0 +1,14 @@
+package chap16_usefulclass;
+
+import java.util.Date;
+
+public class _23_SimpleDateFormat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date today = new Date();
+		
+		
+	}
+
+}

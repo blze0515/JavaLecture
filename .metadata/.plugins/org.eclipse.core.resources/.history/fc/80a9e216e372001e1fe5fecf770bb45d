@@ -1,0 +1,15 @@
+package chap16_usefulclass;
+
+import java.util.Calendar;
+
+public class _19_DiffOfTwoDate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calendar cal1 = Calendar.getInstance();
+		Calendar cal2 = Calendar.getInstance();
+		
+		
+	}
+
+}

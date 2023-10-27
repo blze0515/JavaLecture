@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=JavaProgramming/src&lt;chap09_inherit.animal{Animal.java[Animal" modifiers="1" timestamp="1697682558653"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap09_inherit.board{Board.java[Board" modifiers="1025" timestamp="1697780426602"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_inteface.board{Board.java[Board" modifiers="513" timestamp="1697788946066"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_inteface.multiinherit{Mother2.java[Mother2" modifiers="513" timestamp="1697787635194"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_inteface.multiinherit{Father2.java[Father2" modifiers="513" timestamp="1697787654754"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_inteface.device{Speaker.java[Speaker" modifiers="513" timestamp="1697787860658"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_inteface.device{Display.java[Display" modifiers="513" timestamp="1697788533555"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap12_inteface.device{Tv.java[Tv" modifiers="513" timestamp="1697788192506"/>
+    <typeInfo handle="=JavaProgramming/src&lt;chap14_objectarray.objectarray{InterfaceArray.java[InterfaceArray" modifiers="513" timestamp="1698048045248"/>
+</typeInfoHistroy>

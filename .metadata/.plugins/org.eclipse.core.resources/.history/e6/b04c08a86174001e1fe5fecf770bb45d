@@ -1,0 +1,18 @@
+package chap99_homework.hw231026.group;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class GroupD extends Group{
+	public GroupD() {
+super();
+		
+		HashMap<String, String> map = new HashMap<>();
+
+		map.put("1", "조장");
+		map.put("2", "조원");
+		map.put("3", "조원");
+		
+		super.setMemberMap(map);
+	}
+}

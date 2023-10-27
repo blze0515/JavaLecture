@@ -1,0 +1,43 @@
+package chap16_usefulclass;
+
+import java.util.Calendar;
+
+public class _18_Calendar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Calendar 객체 생성
+		// getInstance() 메소드로 객체를 얻는다.
+		// 이 때 생성되는 객체는 Calendar를 상속받은 GregorianCalendar 객체이다.
+		Calendar calendar = Calendar.getInstance();
+		
+		// 2. 시간 표시(HOUR(0 ~ 11로 표시), HOUR_OF_DAY(0 ~ 23으로 표시))
+		System.out.println("현재 시간은 " + 
+				calendar.get(Calendar.HOUR_OF_DAY) + ":" +
+				calendar.get(Calendar.MINUTE) + ":" +
+				calendar.get(Calendar.SECOND));
+		
+		// 3. 오전 오후 표시(AM_PM(오전이면 0, 오후면 1))
+		System.out.println(calendar.get(Calendar.AM_PM));
+		
+		// 4. 월 표시(MONTH(1월(0) ~ 12월(11)))
+		System.out.println(calendar.get(Calendar.MONTH) + 1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

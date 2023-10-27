@@ -1,0 +1,17 @@
+package chap19_enum.enums;
+
+public enum Season {
+	// 1. SPRING("봄", 3, 4, 5) ~ WINTER("겨울", 12, 1 ,2) 4개의 상수
+	SPRING("봄", 3, 4, 5),
+	SUMMER("여름", 6, 7, 8),
+	FALL("가을", 9, 10, 11),
+	WINTER("겨울", 12, 1, 2);
+	
+	// 2. 변수 선언
+	// String 변수 하나, int[]배열 = new int[3];
+	
+	// 3. 생성자 생성(String, int, int, int)
+	
+	// 4. 일반메소드 
+	// void printSeasonMonth() => 봄은 3, 4, 5월입니다.
+}

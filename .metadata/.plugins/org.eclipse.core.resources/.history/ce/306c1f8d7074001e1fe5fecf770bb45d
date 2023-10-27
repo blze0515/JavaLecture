@@ -1,0 +1,6 @@
+package chap19_enum.enums;
+
+public enum RGB {
+	RED("red", 255, 0, 0),
+	GREEN("green", 0, 255, 0)
+}

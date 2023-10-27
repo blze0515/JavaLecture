@@ -1,0 +1,18 @@
+package chap16_usefulclass;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class _25_LocalDateTime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. LocalDate, LocalTime 객체 생성
+		LocalDate date = LocalDate.now();
+		LocalTime time = LocalTime.now();
+		
+		// 2. LocalDate와 LocalTime으로 LocalDateTime 객체 생성
+		LocalDateTime 
+	}
+
+}

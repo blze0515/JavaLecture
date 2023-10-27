@@ -1,0 +1,18 @@
+package chap16_usefulclass;
+
+import java.util.Calendar;
+
+public class _18_Calendar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Calendar 객체 생성
+		// getInstance() 메소드로 객체를 얻는다.
+		// 이 때 생성되는 객체는 Calendar를 상속받은 GregorianCalendar 객체이다.
+		Calendar calendar = Calendar.getInstance();
+		
+		// 1. 시간 표시(HOUR(0 ~ 11로 표시), HOUR_OF_DAY(0 ~ 23으로 표시))
+		
+	}
+
+}

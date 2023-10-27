@@ -1,0 +1,11 @@
+package chap17_collectionframework;
+
+public class _06_HashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. HashSet 객체 생성
+		Set<>
+	}
+
+}

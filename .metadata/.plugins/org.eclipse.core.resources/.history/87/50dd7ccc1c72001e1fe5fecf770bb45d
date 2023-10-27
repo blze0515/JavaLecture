@@ -1,0 +1,20 @@
+package chap15_exception;
+
+import java.io.BufferedReader;
+
+public class _03_CheckedException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BufferedReader in = new BufferedReader(System.in);
+		
+		int age = 0;
+		
+		try {
+			
+		} catch(IOException ie) {
+			
+		}
+	}
+
+}

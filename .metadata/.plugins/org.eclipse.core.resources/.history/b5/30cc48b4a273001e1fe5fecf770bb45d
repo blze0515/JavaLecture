@@ -1,0 +1,45 @@
+package chap17_collectionframework;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class _06_HashSet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. HashSet 객체 생성
+		Set<String> strSet = new HashSet<>();
+		
+		// 2. Set에 데이터 추가
+		strSet.add("Java");
+		strSet.add("JDBC");
+		strSet.add("JavaScript");
+		strSet.add("HTML/CSS");
+		
+		System.out.println(strSet);
+		System.out.println(strSet.size());
+		
+		// 3. Set에 중복 데이터 저장
+		strSet.add("Java");
+		strSet.add("JDBC");
+		
+		System.out.println(strSet);
+		System.out.println(strSet.size());
+		
+		// 4. iterator로 데이터에 하나씩 접근
+		int idx = 0;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

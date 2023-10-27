@@ -1,7 +1,0 @@
-package chap10_polymorphism.tv;
-
-public class Tv {
-	public void powerOn() {
-		
-	}
-}

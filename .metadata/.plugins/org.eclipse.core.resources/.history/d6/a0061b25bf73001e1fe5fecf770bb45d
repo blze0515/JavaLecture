@@ -1,0 +1,10 @@
+package chap18_generic.board;
+
+BoardFile<NoticeBoard> noticeFile = new NoticeBoard<>();
+
+public class BoardFile<T> {
+	private int boardNo;
+	private int type;
+	private String fileNm;
+	private T t;
+}

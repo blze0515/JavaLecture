@@ -1,0 +1,14 @@
+package chap18_generic;
+
+import chap18_generic.box.Box;
+
+public class _02_GenericBox {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Box<Integer> iBox = new Box<>(1000);
+		Box<String> sBox = new Box<>("java");
+		Box
+	}
+
+}

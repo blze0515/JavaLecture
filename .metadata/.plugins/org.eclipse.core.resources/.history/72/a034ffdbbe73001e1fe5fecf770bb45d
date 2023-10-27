@@ -1,0 +1,6 @@
+package chap18_generic.board;
+
+public class BoardFile<T> {
+	private int boardNo;
+	private int type;
+}

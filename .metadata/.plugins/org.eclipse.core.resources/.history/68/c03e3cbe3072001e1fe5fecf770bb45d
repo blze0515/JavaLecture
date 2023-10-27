@@ -1,0 +1,46 @@
+package chap16_usefulclass;
+
+public class _03_String02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "computer";
+		String str2 = "smartPhone";
+		String str3 = "abcdhabcdeba";
+		
+		// 1. 문자열을 포함하는 지 여부 검사(contains) => boolean 리턴
+		if(str1.contains("tP")) {
+			System.out.println("str1은 tP를 포함합니다.");
+		} else {
+			System.out.println("str1은 tp를 포함하지 않습니다.");
+		}
+		
+		// 2. 특정 문자의 인덱스 확인(indexOf, lastIndexOf)
+		int index = 0;
+		
+		// indexOf는 왼쪽부터 오른쪽으로 검사
+		index = str2.indexOf('h');
+		System.out.println("str2에서 h의 index는 " + index);
+		
+		index = str3.indexOf('a', 4);
+		System.out.println("str3에서 index 4부터 a의 index는 " + index);
+		
+		index = str3.indexOf("abc");
+		System.out.println("str3에서 abc의 index는 " + index);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

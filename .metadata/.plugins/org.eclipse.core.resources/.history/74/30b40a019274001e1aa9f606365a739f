@@ -1,0 +1,12 @@
+package chap20_multithread;
+
+public class _01_Thread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Thread 선언
+		Thread t = 
+		
+	}
+
+}

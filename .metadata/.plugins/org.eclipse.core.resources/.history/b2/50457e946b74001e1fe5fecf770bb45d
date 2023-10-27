@@ -1,0 +1,21 @@
+package chap19_enum;
+
+import chap19_enum.enums.DefaultMonth;
+
+public class _02_DefaultEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Enum은 객체처럼 사용
+		// DefaultMonth.JAN 값을 갖는 열거형 객체가 하나 생성
+		DefaultMonth dm = DefaultMonth.JAN;
+		
+		// 
+		System.out.println(dm);
+		
+		// 2. enum의 ordinal() 메소드
+		// 해당 상수의 인덱스를 알려주는 메소드
+		System.out.println(dm.ordinal());
+	}
+
+}

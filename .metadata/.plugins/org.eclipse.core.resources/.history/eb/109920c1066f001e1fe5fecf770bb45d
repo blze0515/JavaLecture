@@ -1,8 +1,0 @@
-package chap09_inherit.board;
-
-
-// 1. 상속받은 자식 클래스는 부모클래스 타입으로도 사용이 가능하고
-//    자식클래스 타입으로도 사용이 가능하다.
-public class FreeBoard extends Board {
-
-}
