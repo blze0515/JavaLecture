@@ -29,15 +29,15 @@ public class PrintNum {
 			}
 		};
 		
-		t1.start();
+		
 		t2.start();
 		
-//		try {
-//			t2.join();
-//			t1.start();
-//		} catch(InterruptedException ie) {
-//			System.out.println(ie.getMessage());
-//		}
+		try {
+			t2.join();
+			t1.start();
+		} catch(InterruptedException ie) {
+			System.out.println(ie.getMessage());
+		}
 		
 		
 		
