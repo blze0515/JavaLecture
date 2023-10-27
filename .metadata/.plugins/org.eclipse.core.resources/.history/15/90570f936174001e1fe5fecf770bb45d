@@ -1,0 +1,15 @@
+package chap99_homework.hw231026.group;
+
+import java.util.Map;
+
+public class GroupB extends Group{
+	public GroupB() {
+		HashMap<String, String> map = new HashMap<>();
+
+		map.put("4", "조장");
+		map.put("5", "조원");
+		map.put("6", "조원");
+
+		super(map);
+	}
+}

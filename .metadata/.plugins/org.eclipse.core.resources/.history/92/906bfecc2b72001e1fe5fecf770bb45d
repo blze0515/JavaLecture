@@ -1,0 +1,16 @@
+package chap16_usefulclass;
+
+public class _01_Object {
+	public static class Example implements Cloneable {
+		@Override
+		public Object clone() {
+			Object obj = nul;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

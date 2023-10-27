@@ -1,0 +1,35 @@
+package chap19_enum.enums;
+
+public enum Days {
+	// 1. SUN("sunday" ,1) ~ SAT("saturday", 7)
+	SUN("sunday", 1),
+	MON("monday", 2),
+	TUE("tuesday", 3),
+	WED("wednesday", 4),
+	THR("thursday", 5),
+	FRI("friday", 6),
+	SAT("saturday", 7);
+	
+	// 2. 변수
+	private String day;
+	private int dayNum;
+	
+	// 3. 생성자
+	Days(String day, int dayNum) {
+		this.day = day;
+		this.dayNum = dayNum;
+	}
+	
+	// 4. getter
+	public String getDay() {
+		return this.day;
+	}
+	
+	public int getDayNum() {
+		return this.dayNum;
+	}
+	
+	// 5. 추상매소드
+	// 한글 요일을 출력하는 void printHangulDay();
+	public abstract void printHangulDay();
+}

@@ -1,0 +1,12 @@
+package chap17_collectionframework;
+
+public class _03_ArrayListEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	
+	// 사용자가 입력한 5개의 문자열을 
+}

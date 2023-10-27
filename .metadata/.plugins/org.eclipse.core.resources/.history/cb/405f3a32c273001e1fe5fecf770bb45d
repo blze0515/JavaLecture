@@ -1,0 +1,7 @@
+package chap18_generic.box;
+
+public class Box<T> {
+	private T t;
+	
+	
+}

@@ -1,0 +1,14 @@
+package chap19_enum.enums;
+
+public enum Days {
+	// 1. SUN("sunday" ,1) ~ SAT("saturday", 7)
+	
+	// 2. 변수
+	
+	// 3. 생성자
+	
+	// 4. getter
+	
+	// 5. 추상매소드
+	// 한글 요일을 출력하는 printHangulDay();
+}

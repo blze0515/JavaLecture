@@ -1,0 +1,15 @@
+package chap19_enum;
+
+import chap19_enum.enums.ValueMonth;
+
+public class _03_ValueEnum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. enum 객체 생성
+		ValueMonth vm = ValueMonth.JAN;
+		
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package chap19_enum.enums;
+
+// 1. enum 선언
+public enum DefaultMonth {
+	JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SET, OCT, NOV, DEC
+}

@@ -1,0 +1,11 @@
+package chap17_collectionframework;
+
+public class _05_ArrayListEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 사용자가 입력한 문자열(StringBuilder)을 길이를 10씩 잘라서
+		// ArrayList<StringBuilder>에 저장
+	}
+
+}

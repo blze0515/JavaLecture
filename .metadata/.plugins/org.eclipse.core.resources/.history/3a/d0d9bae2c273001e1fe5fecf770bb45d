@@ -1,0 +1,10 @@
+package chap18_generic;
+
+public class _02_GenericBox {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Box<Integer> iBox =
+	}
+
+}

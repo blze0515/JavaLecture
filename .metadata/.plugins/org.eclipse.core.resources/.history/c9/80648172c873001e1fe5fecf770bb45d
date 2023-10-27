@@ -1,0 +1,27 @@
+package chap18_generic;
+
+import java.util.List;
+
+public class _03_GenericMethod {
+	public static void main(String[] args) {
+		String[] strArr = {"java", "javascript", "html"};
+		
+		Integer[] intArr = {1, 2, 3, 4, 5};
+		
+		System.out.println("strArr의 마지막 요소는 " + 
+				_03_GenericMethod.<String>getLastEle(strArr));
+		System.out.println("intArr의 마지막 요소는 " + 
+				_03_GenericMethod.<Integer>getLastEle(intArr));
+		
+		
+	}
+	
+	// 1. 제네릭 메소드 정의
+	public static <T> T getLastEle(T[] tArr) {
+		return tArr[tArr.length - 1];
+	}
+	
+	public static <T> T getLastEle(List<T> tList) {
+		return tList.get(tList.size() - 1);
+	}
+}

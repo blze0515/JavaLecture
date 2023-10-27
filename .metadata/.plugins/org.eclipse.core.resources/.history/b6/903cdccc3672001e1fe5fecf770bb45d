@@ -1,0 +1,11 @@
+package chap16_usefulclass;
+
+public class _05_StringEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 사용자가 문자열1, 문자열2 문자열 2개을 입력
+		// 
+	}
+
+}

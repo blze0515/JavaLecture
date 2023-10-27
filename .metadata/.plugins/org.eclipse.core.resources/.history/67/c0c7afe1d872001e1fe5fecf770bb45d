@@ -1,0 +1,18 @@
+package chap16_usefulclass;
+
+import java.math.BigInteger;
+
+public class _15_BigInteger {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. BigInteger 객체 생성
+		BigInteger bigInt1 = new BigInteger("10000000000000000000000000");
+		BigInteger bigInt2 = BigInteger.valueOf(30000000000000L);
+		
+		// 2. 타입변환
+		String str = bigInt1.toString();
+		long num = bigInt2.longValue();
+	}
+
+}

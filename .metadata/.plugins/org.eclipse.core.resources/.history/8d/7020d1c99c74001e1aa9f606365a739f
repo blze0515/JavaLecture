@@ -1,0 +1,13 @@
+package chap20_multithread;
+
+public class _05_ReasonOfThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public List<Map<String, String>> getDatList() {
+		return new ArrayList<Map<String, String>>();
+	}
+}

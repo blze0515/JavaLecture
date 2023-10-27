@@ -1,0 +1,66 @@
+package chap19_enum.enums;
+
+// 기본적인 열거형의 형태
+public enum ValueMonth {
+	// 1. 상수의 값 할당
+	// 첫 번째 할당된 값과 모두 동일한 타이어야 한다.
+	JAN(1), FEB(2), MAR(3), APR(4), MAY(5), 
+	JUN(5), JUL(7), AUG(8), SET(9), OCT(10), 
+	NOV(11), DEC(12);
+	
+	// 2. 상수의 값을 담을 변수 선언
+	// private 상수의 값과 동일한 타입의 변수 선언
+	private int monthVal;
+	
+	// 3. 생성자 선언
+	// 열거형 객체를 생성할 때 지정된 열거형 상수의 값이 
+	// 생성자의 매개변수로 자동 전달된다.
+	ValueMonth(int monthVal) {
+		this.monthVal = monthVal;
+	}
+	
+	// 4. 상수의 값을 가져오기 위한 getter 메소드
+	public int getMonthVal() {
+		return monthVal;
+	}
+	
+	// 5. enum의 static 메소드 메소드 선언
+	public static void printMonths() {
+		MethodMonth[] mmArr = MethodMonth.values();
+		
+		for(MethodMonth m : mmArr) {
+			System.out.println(m.name() + "는(은) " +
+					m.getMonthVal() + "월 입니다.");
+		}
+	}
+	
+	
+	// 6. enum의 일반 메소드 선언
+	public void printMonth(int month) {
+		MethodMonth[] mmArr = MethodMonth.values();
+		
+		for(MethodMonth m : mmArr) {
+			if(m.getMonthVal() == month) {
+				System.out.println("입력한 달은 " + );
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

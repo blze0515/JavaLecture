@@ -1,0 +1,10 @@
+package chap16_usefulclass;
+
+public class _20_CalDateCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Calendar, Date 객체 생성
+	}
+
+}

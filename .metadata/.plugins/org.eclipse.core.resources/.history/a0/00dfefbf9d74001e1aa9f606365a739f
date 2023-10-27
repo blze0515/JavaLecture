@@ -1,0 +1,8 @@
+package chap20_multithread.thread;
+
+public class PrintNum {
+	public void printNum(int num) {
+		//Thread t1, t2
+		//
+	}
+}

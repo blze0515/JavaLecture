@@ -1,0 +1,14 @@
+package chap16_usefulclass;
+
+public class _22_LeapYear {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean isLeap(int year) {
+		//400으로 나눠떨어지거나 
+		//4로 나눠떨어지는데 100으로는 나눠떨어지지 않는 값
+	}
+}

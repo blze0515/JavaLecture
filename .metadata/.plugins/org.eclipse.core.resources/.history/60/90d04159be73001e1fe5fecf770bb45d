@@ -1,0 +1,6 @@
+package chap18_generic.board;
+
+public class NoticeBoard {
+	private int noticeNo;
+	private 
+}

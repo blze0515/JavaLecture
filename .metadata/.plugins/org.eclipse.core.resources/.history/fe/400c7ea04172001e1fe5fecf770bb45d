@@ -1,0 +1,11 @@
+package chap16_usefulclass;
+
+public class _10_MathEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. int 5개를 담는 배열을 선언하고
+		// 사용자가 정수를 5번 입력해서 배열에 저장
+	}
+
+}

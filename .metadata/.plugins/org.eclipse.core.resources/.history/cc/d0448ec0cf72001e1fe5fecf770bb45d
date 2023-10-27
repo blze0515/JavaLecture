@@ -1,0 +1,16 @@
+package chap16_usefulclass;
+
+public class _11_Integer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. Integer 객체 생성
+		// 자바 9부터는 생성자 사용불가
+		// valueOf 메소드를 통해서 객체를 생성한다.
+		Integer num1 = Integer.valueOf(100);
+		Integer num2 = Integer.valueOf(100);
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package chap17_collectionframework;
+
+import java.util.Scanner;
+
+public class _05_ArrayListEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 사용자가 입력한 문자열(StringBuilder)을 길이를 10씩 잘라서
+		// ArrayList<StringBuilder>에 저장하고 출력하세요.
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+	}
+
+}

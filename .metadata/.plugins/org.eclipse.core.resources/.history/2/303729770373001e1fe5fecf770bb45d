@@ -1,0 +1,31 @@
+package chap17_collectionframework;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap07_class.car.Car;
+
+public class _02_ClassArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * [
+		 * 		{
+		 * 			company: "현대",
+		 * 			model: "제네시스",
+		 * 			color: "검정",
+		 * 			price: 5000,
+		 * 			메소드들.....
+		 * 		}
+		 * 
+		 * 
+		 * 
+		 * 
+		 * ]
+		 * 
+		 * */
+		List<Car> carList = new ArrayList<>();
+	}
+
+}

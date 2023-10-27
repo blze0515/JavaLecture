@@ -1,0 +1,47 @@
+package chap16_usefulclass;
+
+public class _07_StringBuffer02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuffer sb1 = new StringBuffer(100);
+		StringBuffer sb2 = new StringBuffer("bitcamp");
+		StringBuffer sb3 = new StringBuffer();
+		
+		// 1. 새로운 문자열 추가(append)
+		sb1 = sb1.append("navercloud");
+		sb3 = sb3.append("bitcamp");
+		
+		// 2. capacity와 length의 차이
+		System.out.println(sb1.capacity());
+		System.out.println(sb1.length());
+		
+		System.out.println(sb2.capacity());
+		System.out.println(sb2.length());
+		
+		System.out.println(sb3.capacity());
+		System.out.println(sb3.length());
+		
+		
+		// 3. StringBuffer에 남아있는 buffer의 크기
+		int remainBufferSize = sb1.capacity() - sb1.length();
+		
+		for(int i = 0; i < remainBufferSize; i++) {
+			sb1 = sb1.append("a");
+		}
+		
+		System.out.println(sb1);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

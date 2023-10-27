@@ -1,0 +1,14 @@
+package chap16_usefulclass;
+
+import java.math.BigDecimal;
+
+public class _16_BigDecimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. BigDeciaml 객체 생성
+		BigDecimal bigDecimal1 = new BigDecimal(1.999999999999999999999999999999999);
+		BigDecimal bigDecimal2 = BigDecimal.valueOf(3.14592);
+	}
+
+}

@@ -1,0 +1,17 @@
+package chap20_multithread;
+
+public class _02_ThreadName {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 현재 동작중인 스레드 객체 얻어오기
+		Thread thread1 = Thread.currentThread();
+		
+		System.out.println(thread1.getName() + " 동작 중");
+		
+		for(int i = 0; i < 3; i++) {
+			
+		}
+	}
+
+}

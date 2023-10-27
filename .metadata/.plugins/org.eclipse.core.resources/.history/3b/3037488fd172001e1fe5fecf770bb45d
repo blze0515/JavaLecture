@@ -1,0 +1,10 @@
+package chap16_usefulclass;
+
+public class _12_Boxing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 박싱: 기본자료형의 값을 래퍼클래스 객체로 만들어줌
+	}
+
+}

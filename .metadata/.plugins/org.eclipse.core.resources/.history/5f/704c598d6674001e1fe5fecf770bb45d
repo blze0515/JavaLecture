@@ -1,0 +1,18 @@
+package chap99_homework.hw231026;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap99_homework.hw231026.group.Group;
+import chap99_homework.hw231026.group.StudyGroup;
+
+public class Advance02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StudyGroup<Group> studyGroup = new StudyGroup<>();
+		
+		List<Group> groupLis = new ArrayList<>();
+	}
+
+}

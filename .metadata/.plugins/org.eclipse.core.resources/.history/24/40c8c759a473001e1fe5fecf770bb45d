@@ -1,0 +1,17 @@
+package chap17_collectionframework;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import chap07_class.car.CarConstructor;
+
+public class _07_Iterator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<CarConstructor> carList = new ArrayList<>();
+		
+		CarConstructor car = new CarConstructor("현대", );
+	}
+
+}
